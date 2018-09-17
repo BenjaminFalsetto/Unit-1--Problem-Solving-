@@ -41,9 +41,7 @@
             this.mniFreeceTricolori = new System.Windows.Forms.ToolStripMenuItem();
             this.mniBlueAngels = new System.Windows.Forms.ToolStripMenuItem();
             this.lblAerobicTeams = new System.Windows.Forms.Label();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.mnuCountries.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // mnuCountries
@@ -54,7 +52,7 @@
             this.teamsToolStripMenuItem});
             this.mnuCountries.Location = new System.Drawing.Point(0, 0);
             this.mnuCountries.Name = "mnuCountries";
-            this.mnuCountries.Size = new System.Drawing.Size(1214, 24);
+            this.mnuCountries.Size = new System.Drawing.Size(1084, 24);
             this.mnuCountries.TabIndex = 0;
             this.mnuCountries.Text = "menuStrip1";
             // 
@@ -154,20 +152,12 @@
             this.lblAerobicTeams.TabIndex = 1;
             this.lblAerobicTeams.Text = "Aerial Aerobic Teams by Country";
             // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(542, 324);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(104, 45);
-            this.trackBar1.TabIndex = 2;
-            // 
             // frmAerialTeamsBen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1214, 668);
-            this.Controls.Add(this.trackBar1);
+            this.ClientSize = new System.Drawing.Size(1084, 668);
             this.Controls.Add(this.lblAerobicTeams);
             this.Controls.Add(this.mnuCountries);
             this.MainMenuStrip = this.mnuCountries;
@@ -175,7 +165,6 @@
             this.Text = "Aerial Aerobic Teams by Country Ben";
             this.mnuCountries.ResumeLayout(false);
             this.mnuCountries.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,7 +185,6 @@
         private System.Windows.Forms.ToolStripMenuItem mniSnowbirds;
         private System.Windows.Forms.ToolStripMenuItem mniFreeceTricolori;
         private System.Windows.Forms.ToolStripMenuItem mniBlueAngels;
-        private System.Windows.Forms.TrackBar trackBar1;
     }
 }
 
