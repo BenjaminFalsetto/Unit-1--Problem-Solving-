@@ -16,5 +16,14 @@ namespace AreaPerBenF
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            //declare variables
+            double length, width, area, perimeter;
+
+            //convert the string from each text box to a double
+            length = double.Parse(txtLength.Text);
+        }
     }
 }
