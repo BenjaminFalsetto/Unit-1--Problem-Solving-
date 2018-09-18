@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AreaPerBenF
 {
-    public partial class AreaPerForm : Form
+    public partial class frmAreaPer : Form
     {
-        public AreaPerForm()
+        public frmAreaPer()
         {
             InitializeComponent();
         }

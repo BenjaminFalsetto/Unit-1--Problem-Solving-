@@ -16,7 +16,7 @@ namespace AreaPerBenF
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AreaPerForm());
+            Application.Run(new frmAreaPer());
         }
     }
 }
