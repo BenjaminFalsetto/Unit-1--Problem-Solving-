@@ -76,7 +76,7 @@
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculate.Location = new System.Drawing.Point(373, 191);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(95, 35);
+            this.btnCalculate.Size = new System.Drawing.Size(108, 35);
             this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -91,6 +91,7 @@
             this.lblPerAns.Size = new System.Drawing.Size(287, 39);
             this.lblPerAns.TabIndex = 5;
             this.lblPerAns.Text = "Answer Perimeter";
+            this.lblPerAns.VisibleChanged += new System.EventHandler(this.lblPerAns_VisibleChanged);
             // 
             // lblAreaAns
             // 
