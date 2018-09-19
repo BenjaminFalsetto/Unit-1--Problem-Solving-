@@ -46,13 +46,15 @@
             // 
             // mnuCountries
             // 
+            this.mnuCountries.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuCountries.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mniFile,
             this.mniCountries,
             this.teamsToolStripMenuItem});
             this.mnuCountries.Location = new System.Drawing.Point(0, 0);
             this.mnuCountries.Name = "mnuCountries";
-            this.mnuCountries.Size = new System.Drawing.Size(1084, 24);
+            this.mnuCountries.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.mnuCountries.Size = new System.Drawing.Size(1594, 28);
             this.mnuCountries.TabIndex = 0;
             this.mnuCountries.Text = "menuStrip1";
             // 
@@ -62,20 +64,20 @@
             this.mniHome,
             this.mniExit});
             this.mniFile.Name = "mniFile";
-            this.mniFile.Size = new System.Drawing.Size(37, 20);
+            this.mniFile.Size = new System.Drawing.Size(44, 24);
             this.mniFile.Text = "File";
             // 
             // mniHome
             // 
             this.mniHome.Name = "mniHome";
-            this.mniHome.Size = new System.Drawing.Size(107, 22);
+            this.mniHome.Size = new System.Drawing.Size(125, 26);
             this.mniHome.Text = "Home";
             this.mniHome.Click += new System.EventHandler(this.mniHome_Click);
             // 
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(107, 22);
+            this.mniExit.Size = new System.Drawing.Size(125, 26);
             this.mniExit.Text = "Exit";
             this.mniExit.Click += new System.EventHandler(this.mniExit_Click);
             // 
@@ -86,27 +88,27 @@
             this.mniItaly,
             this.mniUnitedStates});
             this.mniCountries.Name = "mniCountries";
-            this.mniCountries.Size = new System.Drawing.Size(70, 20);
+            this.mniCountries.Size = new System.Drawing.Size(83, 24);
             this.mniCountries.Text = "Countries";
             // 
             // mniCanada
             // 
             this.mniCanada.Name = "mniCanada";
-            this.mniCanada.Size = new System.Drawing.Size(143, 22);
+            this.mniCanada.Size = new System.Drawing.Size(172, 26);
             this.mniCanada.Text = "Canada";
             this.mniCanada.Click += new System.EventHandler(this.mniCanada_Click);
             // 
             // mniItaly
             // 
             this.mniItaly.Name = "mniItaly";
-            this.mniItaly.Size = new System.Drawing.Size(143, 22);
+            this.mniItaly.Size = new System.Drawing.Size(172, 26);
             this.mniItaly.Text = "Italy";
             this.mniItaly.Click += new System.EventHandler(this.mniItaly_Click);
             // 
             // mniUnitedStates
             // 
             this.mniUnitedStates.Name = "mniUnitedStates";
-            this.mniUnitedStates.Size = new System.Drawing.Size(143, 22);
+            this.mniUnitedStates.Size = new System.Drawing.Size(172, 26);
             this.mniUnitedStates.Text = "United States";
             this.mniUnitedStates.Click += new System.EventHandler(this.mniUnitedStates_Click);
             // 
@@ -117,50 +119,52 @@
             this.mniFreeceTricolori,
             this.mniBlueAngels});
             this.teamsToolStripMenuItem.Name = "teamsToolStripMenuItem";
-            this.teamsToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.teamsToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.teamsToolStripMenuItem.Text = "Teams";
             // 
             // mniSnowbirds
             // 
             this.mniSnowbirds.Name = "mniSnowbirds";
-            this.mniSnowbirds.Size = new System.Drawing.Size(154, 22);
+            this.mniSnowbirds.Size = new System.Drawing.Size(184, 26);
             this.mniSnowbirds.Text = "Snowbirds";
             this.mniSnowbirds.Click += new System.EventHandler(this.mniSnowbirds_Click);
             // 
             // mniFreeceTricolori
             // 
             this.mniFreeceTricolori.Name = "mniFreeceTricolori";
-            this.mniFreeceTricolori.Size = new System.Drawing.Size(154, 22);
+            this.mniFreeceTricolori.Size = new System.Drawing.Size(184, 26);
             this.mniFreeceTricolori.Text = "Frecce Tricolori";
             this.mniFreeceTricolori.Click += new System.EventHandler(this.mniFrecceTricolori_Click);
             // 
             // mniBlueAngels
             // 
             this.mniBlueAngels.Name = "mniBlueAngels";
-            this.mniBlueAngels.Size = new System.Drawing.Size(154, 22);
+            this.mniBlueAngels.Size = new System.Drawing.Size(184, 26);
             this.mniBlueAngels.Text = "Blue Angels";
             this.mniBlueAngels.Click += new System.EventHandler(this.mniBlueAngels_Click);
             // 
             // lblAerobicTeams
             // 
             this.lblAerobicTeams.AutoSize = true;
-            this.lblAerobicTeams.Font = new System.Drawing.Font("Poplar Std", 60F, System.Drawing.FontStyle.Bold);
+            this.lblAerobicTeams.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Bold);
             this.lblAerobicTeams.ForeColor = System.Drawing.Color.Red;
-            this.lblAerobicTeams.Location = new System.Drawing.Point(198, 106);
+            this.lblAerobicTeams.Location = new System.Drawing.Point(-2, 101);
+            this.lblAerobicTeams.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAerobicTeams.Name = "lblAerobicTeams";
-            this.lblAerobicTeams.Size = new System.Drawing.Size(841, 95);
+            this.lblAerobicTeams.Size = new System.Drawing.Size(1549, 113);
             this.lblAerobicTeams.TabIndex = 1;
             this.lblAerobicTeams.Text = "Aerial Aerobic Teams by Country";
             // 
             // frmAerialTeamsBen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1084, 668);
+            this.ClientSize = new System.Drawing.Size(1594, 822);
             this.Controls.Add(this.lblAerobicTeams);
             this.Controls.Add(this.mnuCountries);
             this.MainMenuStrip = this.mnuCountries;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmAerialTeamsBen";
             this.Text = "Aerial Aerobic Teams by Country Ben";
             this.mnuCountries.ResumeLayout(false);
