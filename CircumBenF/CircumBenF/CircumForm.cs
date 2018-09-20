@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CircumBenF
 {
-    public partial class Form1 : Form
+    public partial class frmCircum : Form
     {
-        public Form1()
+        public frmCircum()
         {
             InitializeComponent();
         }
