@@ -40,6 +40,8 @@ namespace AreaPerBenF
             area = length * width;
             perimeter = 2 * length + 2 * width;
 
+            /// This is a comment
+
             //insert the area and the perimeter into their respective labels
             this.lblPerAns.Text = Convert.ToString(perimeter) + " meters squared";
             this.lblAreaAns.Text = Convert.ToString(area) + " meters squared";
