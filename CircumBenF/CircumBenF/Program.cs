@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace CircumBenF
 {
-    static class Circum
+    static class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace CircumBenF
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCircum());
+            Application.Run(new Form1());
         }
     }
 }
