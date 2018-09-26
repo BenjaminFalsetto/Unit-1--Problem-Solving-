@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Benjamin Falsetto
+ * Created on: 2018/09/25
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #10 - CircumBenF
+ * This program calculates the circumference when given an input in the form of a radius.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
