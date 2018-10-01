@@ -15,6 +15,7 @@ namespace PizzaCost
         public frmPizzaCost()
         {
             InitializeComponent();
+<<<<<<< HEAD
             this.lblSubtotal.Hide();
             this.lblTotal.Hide();
         }
@@ -40,6 +41,8 @@ namespace PizzaCost
             total = HST * subTotal;
             this.lblTotal.Text = Convert.ToString("Your total is: $" + total);
             this.lblTotal.Show();
+=======
+>>>>>>> 389eabfb4896b447874ba4961e43e7caf8e8fc28
         }
     }
 }
