@@ -109,7 +109,7 @@
             // 
             this.lblHst.AutoSize = true;
             this.lblHst.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
-            this.lblHst.Location = new System.Drawing.Point(42, 347);
+            this.lblHst.Location = new System.Drawing.Point(38, 347);
             this.lblHst.Name = "lblHst";
             this.lblHst.Size = new System.Drawing.Size(278, 21);
             this.lblHst.TabIndex = 9;
