@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Created by: Benjamin Falsetto
+ * Created on: 2018/10/02
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #11 - Pizza Cost
+ * This program takes a size input and a number of pizzas input from numeric updown boxes and then
+ * gives subtotal, hst, and total
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

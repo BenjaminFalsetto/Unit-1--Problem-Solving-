@@ -94,16 +94,46 @@
             // nudDiameter
             // 
             this.nudDiameter.Location = new System.Drawing.Point(593, 58);
+            this.nudDiameter.Maximum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.nudDiameter.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.nudDiameter.Name = "nudDiameter";
             this.nudDiameter.Size = new System.Drawing.Size(120, 20);
             this.nudDiameter.TabIndex = 7;
+            this.nudDiameter.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // nudNumPizza
             // 
             this.nudNumPizza.Location = new System.Drawing.Point(593, 145);
+            this.nudNumPizza.Maximum = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            this.nudNumPizza.Minimum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
             this.nudNumPizza.Name = "nudNumPizza";
             this.nudNumPizza.Size = new System.Drawing.Size(120, 20);
             this.nudNumPizza.TabIndex = 8;
+            this.nudNumPizza.Value = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
             // 
             // lblHst
             // 
