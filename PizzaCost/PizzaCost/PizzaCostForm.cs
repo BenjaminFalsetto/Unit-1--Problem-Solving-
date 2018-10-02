@@ -16,29 +16,35 @@ namespace PizzaCost
         {
             InitializeComponent();
             this.lblSubtotal.Hide();
+            this.lblHst.Hide();
             this.lblTotal.Hide();
         }
 
         private void btnCalCost_Click(object sender, EventArgs e)
         {
             //declare local variables
-            double size, numPizzas, subTotal, total, test;
+            double size, numPizzas, subTotal, total, hst;
 
             //declare constants
             const double RENT = 0.99, LABOURCOST = 0.75, HST = 1.13;
 
             //assign each variable it's value
-            size = double.Parse(txtSize.Text);
-            numPizzas = double.Parse(txtNumPizzas.Text);
+            size = (double)(nudDiameter.Value);
+            numPizzas = (double)(nudNumPizza.Value);
 
             //calculate and display the subtotal the subtotal label
             subTotal = (numPizzas * RENT) + (numPizzas * LABOURCOST) + (0.5 * size);
-            this.lblSubtotal.Text = Convert.ToString("Your subtotal is $" + subTotal);
+            this.lblSubtotal.Text = String.Format("Your subtotal is ${0:0.00}", subTotal);
             this.lblSubtotal.Show();
+
+            //calculate the tax and display it in it's label
+            hst = subTotal * 0.13;
+            lblHst.Text = String.Format("Tax is ${0:0.00}", hst);
+            this.lblHst.Show();
 
             //calculate and display the total the total label
             total = HST * subTotal;
-            this.lblTotal.Text = Convert.ToString("Your total is: $" + total);
+            this.lblTotal.Text = String.Format("Your total is ${0:0.00}", total);
             this.lblTotal.Show();
         }
     }
