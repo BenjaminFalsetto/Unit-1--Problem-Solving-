@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.lblSize = new System.Windows.Forms.Label();
             this.txtSize = new System.Windows.Forms.TextBox();
             this.lblNumPizzas = new System.Windows.Forms.Label();
@@ -36,6 +35,8 @@
             this.btnCalCost = new System.Windows.Forms.Button();
             this.lblSubtotal = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.nudTest = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.nudTest)).BeginInit();
             this.SuspendLayout();
             // 
             // lblSize
@@ -102,40 +103,35 @@
             this.lblTotal.Size = new System.Drawing.Size(281, 21);
             this.lblTotal.TabIndex = 6;
             this.lblTotal.Text = "This is where the total will appear.";
-=======
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.SuspendLayout();
             // 
-            // numericUpDown1
+            // nudTest
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(191, 153);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            21,
+            this.nudTest.Location = new System.Drawing.Point(583, 217);
+            this.nudTest.Maximum = new decimal(new int[] {
+            20,
             0,
             0,
             0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            6,
+            this.nudTest.Minimum = new decimal(new int[] {
+            1,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 0;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            6,
+            this.nudTest.Name = "nudTest";
+            this.nudTest.Size = new System.Drawing.Size(120, 20);
+            this.nudTest.TabIndex = 7;
+            this.nudTest.Value = new decimal(new int[] {
+            1,
             0,
             0,
             0});
->>>>>>> 389eabfb4896b447874ba4961e43e7caf8e8fc28
             // 
             // frmPizzaCost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.nudTest);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lblSubtotal);
             this.Controls.Add(this.btnCalCost);
@@ -145,22 +141,14 @@
             this.Controls.Add(this.lblSize);
             this.Name = "frmPizzaCost";
             this.Text = "Pizza Cost Benjamin Falsetto";
+            ((System.ComponentModel.ISupportInitialize)(this.nudTest)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-=======
-            this.ClientSize = new System.Drawing.Size(709, 538);
-            this.Controls.Add(this.numericUpDown1);
-            this.Name = "frmPizzaCost";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.ResumeLayout(false);
->>>>>>> 389eabfb4896b447874ba4961e43e7caf8e8fc28
 
         }
 
         #endregion
 
-<<<<<<< HEAD
         private System.Windows.Forms.Label lblSize;
         private System.Windows.Forms.TextBox txtSize;
         private System.Windows.Forms.Label lblNumPizzas;
@@ -168,9 +156,7 @@
         private System.Windows.Forms.Button btnCalCost;
         private System.Windows.Forms.Label lblSubtotal;
         private System.Windows.Forms.Label lblTotal;
-=======
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
->>>>>>> 389eabfb4896b447874ba4961e43e7caf8e8fc28
+        private System.Windows.Forms.NumericUpDown nudTest;
     }
 }
 

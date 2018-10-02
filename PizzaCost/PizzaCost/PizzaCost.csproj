@@ -4,7 +4,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
     <ProjectGuid>{1A113ED3-B151-41C2-8F79-E41CC5B601CD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PizzaCost</RootNamespace>
@@ -13,15 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-=======
-    <ProjectGuid>{586DEC14-450C-4E58-857E-E311022B376E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>PizzaCost</RootNamespace>
-    <AssemblyName>PizzaCost</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
->>>>>>> 389eabfb4896b447874ba4961e43e7caf8e8fc28
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

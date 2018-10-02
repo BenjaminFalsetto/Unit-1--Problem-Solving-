@@ -15,7 +15,6 @@ namespace PizzaCost
         public frmPizzaCost()
         {
             InitializeComponent();
-<<<<<<< HEAD
             this.lblSubtotal.Hide();
             this.lblTotal.Hide();
         }
@@ -23,7 +22,7 @@ namespace PizzaCost
         private void btnCalCost_Click(object sender, EventArgs e)
         {
             //declare local variables
-            double size, numPizzas, subTotal, total;
+            double size, numPizzas, subTotal, total, test;
 
             //declare constants
             const double RENT = 0.99, LABOURCOST = 0.75, HST = 1.13;
@@ -41,8 +40,6 @@ namespace PizzaCost
             total = HST * subTotal;
             this.lblTotal.Text = Convert.ToString("Your total is: $" + total);
             this.lblTotal.Show();
-=======
->>>>>>> 389eabfb4896b447874ba4961e43e7caf8e8fc28
         }
     }
 }
