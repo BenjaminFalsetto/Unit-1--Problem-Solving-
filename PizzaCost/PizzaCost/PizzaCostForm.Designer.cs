@@ -43,20 +43,20 @@
             // lblSize
             // 
             this.lblSize.AutoSize = true;
-            this.lblSize.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSize.Location = new System.Drawing.Point(38, 51);
             this.lblSize.Name = "lblSize";
-            this.lblSize.Size = new System.Drawing.Size(496, 24);
+            this.lblSize.Size = new System.Drawing.Size(549, 25);
             this.lblSize.TabIndex = 0;
             this.lblSize.Text = "What diameter would you like your pizza(s) to have? (in)";
             // 
             // lblNumPizzas
             // 
             this.lblNumPizzas.AutoSize = true;
-            this.lblNumPizzas.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumPizzas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumPizzas.Location = new System.Drawing.Point(38, 138);
             this.lblNumPizzas.Name = "lblNumPizzas";
-            this.lblNumPizzas.Size = new System.Drawing.Size(300, 24);
+            this.lblNumPizzas.Size = new System.Drawing.Size(334, 25);
             this.lblNumPizzas.TabIndex = 2;
             this.lblNumPizzas.Text = "How many pizzas would you like?";
             // 
@@ -74,20 +74,20 @@
             // lblSubtotal
             // 
             this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubtotal.Location = new System.Drawing.Point(38, 310);
             this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(307, 21);
+            this.lblSubtotal.Size = new System.Drawing.Size(322, 24);
             this.lblSubtotal.TabIndex = 5;
             this.lblSubtotal.Text = "This is where the subtotal will appear.";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.Location = new System.Drawing.Point(38, 379);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(281, 21);
+            this.lblTotal.Size = new System.Drawing.Size(291, 24);
             this.lblTotal.TabIndex = 6;
             this.lblTotal.Text = "This is where the total will appear.";
             // 
@@ -108,10 +108,10 @@
             // lblHst
             // 
             this.lblHst.AutoSize = true;
-            this.lblHst.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
-            this.lblHst.Location = new System.Drawing.Point(38, 347);
+            this.lblHst.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.lblHst.Location = new System.Drawing.Point(38, 344);
             this.lblHst.Name = "lblHst";
-            this.lblHst.Size = new System.Drawing.Size(278, 21);
+            this.lblHst.Size = new System.Drawing.Size(291, 24);
             this.lblHst.TabIndex = 9;
             this.lblHst.Text = "This is where the HST will appear";
             // 
