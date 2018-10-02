@@ -93,14 +93,14 @@
             // 
             // nudDiameter
             // 
-            this.nudDiameter.Location = new System.Drawing.Point(549, 57);
+            this.nudDiameter.Location = new System.Drawing.Point(593, 58);
             this.nudDiameter.Name = "nudDiameter";
             this.nudDiameter.Size = new System.Drawing.Size(120, 20);
             this.nudDiameter.TabIndex = 7;
             // 
             // nudNumPizza
             // 
-            this.nudNumPizza.Location = new System.Drawing.Point(549, 144);
+            this.nudNumPizza.Location = new System.Drawing.Point(593, 145);
             this.nudNumPizza.Name = "nudNumPizza";
             this.nudNumPizza.Size = new System.Drawing.Size(120, 20);
             this.nudNumPizza.TabIndex = 8;
