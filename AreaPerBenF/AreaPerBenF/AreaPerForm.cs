@@ -43,7 +43,7 @@ namespace AreaPerBenF
             /// This is a comment
 
             //insert the area and the perimeter into their respective labels
-            this.lblPerAns.Text = Convert.ToString(perimeter) + " meters squared";
+            this.lblPerAns.Text = Convert.ToString(perimeter) + " meters";
             this.lblAreaAns.Text = Convert.ToString(area) + " meters squared";
 
             //display the perimeter and the area labels with their respective answers
